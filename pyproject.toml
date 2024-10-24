@@ -16,6 +16,7 @@ chromadb = "^0.5.15"
 pymupdf = "^1.24.12"
 langchain-openai = "^0.2.3"
 langchain-chroma = "^0.1.4"
+protobuf = "3.20.3"
 
 [build-system]
 requires = ["poetry-core"]
