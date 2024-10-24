@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "qna-text2sql"
+version = "0.1.0"
+description = ""
+authors = ["amit0101 <amit.kr.py@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+fastapi = "^0.115.3"
+langchain = "^0.3.4"
+llama-index = "^0.11.19"
+pydantic = {extras = ["dotenv"], version = "^2.9.2"}
+uvicorn = "^0.32.0"
+sqlalchemy = "^2.0.36"
+aiosqlite = "^0.20.0"
+langchain-community = "^0.3.3"
+python-dotenv = "^1.0.1"
+openai = "^1.52.1"
+unstructured = "^0.16.0"
+pdfminer = "^20191125"
+together = "^1.3.3"
+streamlit = "^1.39.0"
+chromadb = "^0.5.15"
+pymupdf = "^1.24.12"
+langchain-openai = "^0.2.3"
+langchain-chroma = "^0.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
