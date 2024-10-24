@@ -1,14 +1,14 @@
 import os
-# from langchain_community.chat_models import ChatOpenAI
-# from langchain_community.embeddings import OpenAIEmbeddings
-from langhchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_community.chat_models import ChatOpenAI
+from langchain_community.embeddings import OpenAIEmbeddings
+# from langhchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables.history import RunnableWithMessageHistory
-# from langchain_community.vectorstores import Chroma
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import Chroma
+# from langchain_chroma import Chroma
 from dotenv import load_dotenv
 import chromadb
 
