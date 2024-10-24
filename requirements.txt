@@ -8,5 +8,4 @@ langchain-openai
 langchain-chroma
 langchain-community
 langchain-text-splitters
-pysqlite3-binary
 protobuf==3.20.3
